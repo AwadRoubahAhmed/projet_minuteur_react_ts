@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  width: 120px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3 ease;
+}
+.buttonColorRed {
+  background-color: #f44336;
+}
+.buttonColorGreen {
+  background-color: #4caf50;
+}
+.buttonColorReset {
+  background: none;
+  border: 1px solid #4b545b;
+}
