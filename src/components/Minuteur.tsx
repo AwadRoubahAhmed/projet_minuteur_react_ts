@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-const Minuteur = () => {
+const Minuteur: React.FC = () => {
   // State;
-  const [count, setCount] = useState(0);
-  const [isRunning, setIsRunning] = useState(false);
+  const [count, setCount] = useState<number>(0);
+  const [isRunning, setIsRunning] = useState<boolean>(false);
 
   //Comportement;
   useEffect(() => {
@@ -38,6 +38,6 @@ const Minuteur = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Minuteur;
